@@ -1,14 +1,14 @@
 console.log("----------Task 1------------")
 let x = false;
-let arr = [true, 2, 'greenfield', ['honey', false, farms = {
+let arr = [true, 2, 'greenfield', ['honey', false, {
     lviv: 1,
     lytck: 2,
     gorp: 4
 }, 22,],
-    house = {
+    {
         door: "yellow",
         floor: "blue",
-    }, 22, 'asdfa', x, 932.90, 'oksdfa', assdf = ['asdfas', 'asdfasd', 'dffgke']]
+    }, 22, 'asdfa', x, 932.90, 'oksdfa', ['asdfas', 'asdfasd', 'dffgke']]
 
 console.log(arr [0]);
 console.log(arr [1]);
@@ -109,13 +109,13 @@ let users = [user1 = {
         password: '1234579',
     },]
 
-console.log(user1.password)
-console.log(user2.password)
-console.log(user3.password)
-console.log(user4.password)
-console.log(user5.password)
-console.log(user6.password)
-console.log(user7.password)
-console.log(user8.password)
-console.log(user9.password)
-console.log(user10.password)
+console.log(users[0].password)
+console.log(users[1].password)
+console.log(users[2].password)
+console.log(users[3].password)
+console.log(users[4].password)
+console.log(users[5].password)
+console.log(users[6].password)
+console.log(users[7].password)
+console.log(users[8].password)
+console.log(users[9].password)
