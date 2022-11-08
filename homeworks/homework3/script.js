@@ -4,7 +4,7 @@
 // 'Вірно', інакше виведіть 'Невірно'. Перевірте
 //   скрипт при a, що дорівнює 1, 0, -3
 
-let x = +prompt("Enter a number")
+let x = +prompt("Task 1: Enter a number")
 console.log(x)
 
 if (x) {
@@ -22,9 +22,9 @@ if (x) {
 // (в першу, другу, третю или четверту частину 
 // години).
 
-let time = +prompt("Enter number from 0 to 59");
-// console.log(time)
-// console.log(typeof(time))
+let time = +prompt("Task 2: Enter number from 0 to 59");
+console.log(time)
+console.log(typeof(time))
 
 switch (true) {
     case (time >= 0 && time <= 15):
@@ -48,4 +48,39 @@ switch (true) {
         break;
 }
 
-// <--------- Task 2 ----------->
+// <--------- Task 3 ----------->
+// - У змінній day дано якесь число 
+// від 1 до 31. Потрібно визначити, у 
+// яку половину(декаду) місяця потрапляє 
+// це число (у першу, другу чи третю).
+
+let day = +prompt("Task 3: Enter a number from 1 to 31");
+
+if (day >= 1 && day <= 11) {
+    console.log("First decade");
+} else if (day >= 12 && day <= 21) {
+    console.log("Second decade");
+} else if (day >= 22 && day <= 31) {
+    console.log("Third decade");
+}
+
+
+
+// <--------- Task 4 ----------->
+// Скласти розклад на тиждень за домопоги 
+// switch. Користувач вводить порядковий номер
+//  дня тижня і на екрані відображається інфа 
+//  що заплановано на цей день (можна замість
+//  плану на день, назву дня англійською)
+
+// let day = prompt("Task 4: Введіть порядковий номер дня тижня")
+// console.log(day)
+
+// switch (prompt) {
+//     case "1":
+//         document.append("Hello")
+//         break;
+
+//     default:
+//         break;
+// }
