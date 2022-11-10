@@ -84,6 +84,7 @@ let products = [
     },
 ];
 
+document.write(`<div class="container">`)
 for (let j = 0; j < products.length; j++) {
     document.write(`
      <div class="product-card">
@@ -92,3 +93,4 @@ for (let j = 0; j < products.length; j++) {
     </div>
 `)
 }
+document.write(`</div>`)
