@@ -1,8 +1,7 @@
 // - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
 
 function calcRectangleArea() {
-    let area;
-    return area = arguments[0] * arguments[1];
+    return arguments[0] * arguments[1];
 }
 
 console.log("Rectangle area = ", calcRectangleArea(2, 2));
@@ -11,8 +10,7 @@ console.log("Rectangle area = ", calcRectangleArea(2, 2));
 
 function calcCircleArea(radius) {
     const pi = 3.14;
-    let area;
-    return area = pi * radius * radius;
+    return pi * radius * radius;
 }
 
 console.log("Circle area = ", calcCircleArea(2));
